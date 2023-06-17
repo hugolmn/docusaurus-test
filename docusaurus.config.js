@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Hugo Le Moine',
+  tagline: 'Data Scientist',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Hugo Le Moine',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -79,8 +79,18 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/hugolmn',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            href: 'https://www.linkedin.com/in/hugo-le-moine/',
+            label: 'Linkedin',
+            position: 'right',
+          },
+          {
+            href: 'https://instagram.com/hugo_le_moine/',
+            label: 'Instagram',
             position: 'right',
           },
         ],
@@ -89,46 +99,45 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Projects',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Dividend Chart',
+                href: 'https://twitter.com/DividendChart',
+              },
+              {
+                label: 'Quantified Self',
+                href: 'https://quantified-self.streamlit.app',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Email',
+                href: 'mailto:hugo.le-moine@outlook.fr',
+              },{
+                label: 'GitHub',
+                href: 'https://github.com/hugolmn',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://instagram.com/hugo_le_moine/',
+              },
+              {
+                label: 'Stack Overflow',
+                href: 'https://stackoverflow.com/users/13765085/hugolmn',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://twitter.com/hugo_le_moine_',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Built by Hugo Le Moine, using Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
